@@ -1,5 +1,3 @@
-# MemGCN
-
 # Memory-Augmented GCN (MemGCN)
 
 ## Overview
