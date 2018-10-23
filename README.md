@@ -22,3 +22,14 @@ To run MemGCN on your data, you need to: change the function of loading data in 
 ```bash
 bash memgcn.sh
 ```
+
+## References: 
+```
+@article{zhang2018integrative,
+  title={Integrative Analysis of Patient Health Records and Neuroimages via Memory-based Graph Convolutional Network},
+  author={Zhang, Xi and Chou, Jingyuan and Wang, Fei},
+  journal={arXiv preprint arXiv:1809.06018},
+  year={2018}
+}
+```
+This paper can be accessed on : [Memory-based GCN] (https://arxiv.org/pdf/1809.06018.pdf)
