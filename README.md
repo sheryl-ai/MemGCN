@@ -8,8 +8,13 @@ This repository contains TensorFlow code for implementing Memory-Augmented Graph
 
 In detail, the proposed method MemGCN is a matching network embeds multi-hop memory-augmented graph convolutions and can be trained in an end-to-end fashion with stochastic optimization. The brain connectivity graphs are transformed by graph convolutional networks into representations, while the external memory mechanism is in charge of iteratively (multiple hops) reading clinical sequences and choosing what to retrieve from memories so that the representations learned by graph convolution can be augmented.
 
-MemGCN provides a learning strategy for multi-modality data with sequential and graph structure in general scenarios. The code is documented and should be easy to modify for your own applications.      
+## Memory-Augmentation
 
+<p align="center"><img src="images/MemGCN-1hop.png" alt="Memory-base Graph Convolutional Network for brain connectivity graphs with clinical records" width="500"></p>
+
+The key contribution of MemGCN is incorporating sequential records into the representation learning of brain connectivity in terms of memories. By pushing the clinical sequences into the memories, the continuous representations of this external information are processed with brain graphs together so that a more comprehensive diagnosis could be made. The above figure is an illustration of memory augmented graph convolution in a single hop (the 1-st hop). 
+
+MemGCN provides a learning strategy for multi-modality data with sequential and graph structure in general scenarios. The code is documented and should be easy to modify for your own applications.      
 
 ## Requirements
 This package has the following requirements:
