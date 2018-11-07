@@ -23,6 +23,7 @@ This package has the following requirements:
 * [TensorFlow](https://github.com/tensorflow/tensorflow)
 
 ## Usage
+### How to Run
 To run MemGCN on your data, you need to: change the function of loading data in utils.py; set hyperparameters for MemGCN in memgcn.sh; run the shell script memgcn.sh
 ```bash
 bash memgcn.sh
