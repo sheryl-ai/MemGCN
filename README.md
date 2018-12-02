@@ -14,7 +14,7 @@ In detail, the proposed method MemGCN is a matching network embeds multi-hop mem
 
 The key contribution of MemGCN is incorporating sequential records into the representation learning of brain connectivity in terms of memories. By pushing the clinical sequences into the memories, the continuous representations of this external information are processed with brain graphs together so that a more comprehensive diagnosis could be made. The above figure is an illustration of memory augmented graph convolution in a single hop (the 1-st hop). 
 
-MemGCN provides a learning strategy for multi-modality data with sequential and graph structure in general scenarios. The code is documented and should be easy to modify for your own applications.      
+**MemGCN provides a learning strategy for multi-modality data with sequential and graph structure in general scenarios. The code is documented and should be easy to modify for your own applications.**      
 
 ## Requirements
 This package has the following requirements:
@@ -28,6 +28,16 @@ To run MemGCN on your data, you need to: change the function of loading data in 
 ```bash
 bash memgcn.sh
 ```
+
+### Additional Material:
+There is implementations used in: 
+
+Sainbayar Sukhbaatar, Arthur Szlam, Jason Weston, Rob Fergus, [End-To-End Memory Networks](https://arxiv.org/pdf/1503.08895.pdf), Neural Information Processing Systems (NIPS), 2015.
+
+Michaël Defferrard, Xavier Bresson, Pierre Vandergheynst, [Convolutional Neural Networks on Graphs with Fast Localized Spectral Filtering](https://arxiv.org/abs/1606.09375), Neural Information Processing Systems (NIPS), 2016.
+
+Sofia Ira Ktena, Sarah Parisot, Enzo Ferrante, Martin Rajchl, Matthew Lee, Ben Glocker, Daniel Rueckert, [Distance Metric Learning using Graph Convolutional Networks: Application to Functional Brain Networks](https://arxiv.org/abs/1703.02161), Medical Image Computing and Computer-Assisted Interventions (MICCAI), 2017.
+
 
 ## References: 
 ```
