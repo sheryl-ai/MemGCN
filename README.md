@@ -29,7 +29,7 @@ To run MemGCN on your data, you need to: change the function of loading data in 
 bash memgcn.sh
 ```
 
-### Additional Material:
+### Additional Material
 There is implementations used in: 
 
 Sainbayar Sukhbaatar, Arthur Szlam, Jason Weston, Rob Fergus, [End-To-End Memory Networks](https://arxiv.org/pdf/1503.08895.pdf), Neural Information Processing Systems (NIPS), 2015.
@@ -39,7 +39,8 @@ Michaël Defferrard, Xavier Bresson, Pierre Vandergheynst, [Convolutional Neural
 Sofia Ira Ktena, Sarah Parisot, Enzo Ferrante, Martin Rajchl, Matthew Lee, Ben Glocker, Daniel Rueckert, [Distance Metric Learning using Graph Convolutional Networks: Application to Functional Brain Networks](https://arxiv.org/abs/1703.02161), Medical Image Computing and Computer-Assisted Interventions (MICCAI), 2017.
 
 
-## References: 
+## References
+If you happen to use our work, please consider citing our paper: 
 ```
 @article{zhang2018integrative,
   title={Integrative Analysis of Patient Health Records and Neuroimages via Memory-based Graph Convolutional Network},
