@@ -19,8 +19,8 @@ The key contribution of MemGCN is incorporating sequential records into the repr
 ## Requirements
 This package has the following requirements:
 * An NVIDIA GPU.
-* `Python3.x`
-* [TensorFlow](https://github.com/tensorflow/tensorflow)
+* `Python 3.x`
+* [TensorFlow 1.4](https://github.com/tensorflow/tensorflow)
 
 ## Usage
 ### How to Run
