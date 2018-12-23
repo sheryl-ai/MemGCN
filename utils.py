@@ -1,4 +1,4 @@
-
+""" Code for loading data. """
 import sklearn, sklearn.datasets
 import sklearn.naive_bayes, sklearn.linear_model, sklearn.svm, sklearn.neighbors, sklearn.ensemble
 import matplotlib.pyplot as plt
@@ -14,7 +14,7 @@ from sklearn.model_selection import StratifiedKFold
 
 bad_dti_id = [523, 524, 639, 643, 647, 767]
 
-def load_dti(data_type): 
+def load_dti(data_type):
     delete_sid = [373] + bad_dti_id
     subj = list()
     data = list()
