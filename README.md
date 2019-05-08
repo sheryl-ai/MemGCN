@@ -42,11 +42,13 @@ Sofia Ira Ktena, Sarah Parisot, Enzo Ferrante, Martin Rajchl, Matthew Lee, Ben G
 ## References
 If you happen to use our work, please consider citing our paper: 
 ```
-@article{zhang2018integrative,
+@inproceedings{zhang2018integrative,
   title={Integrative Analysis of Patient Health Records and Neuroimages via Memory-based Graph Convolutional Network},
   author={Zhang, Xi and Chou, Jingyuan and Wang, Fei},
-  journal={arXiv preprint arXiv:1809.06018},
-  year={2018}
+  booktitle={2018 IEEE International Conference on Data Mining (ICDM)},
+  pages={767--776},
+  year={2018},
+  organization={IEEE}
 }
 ```
 This paper can be accessed on : [Memory-based GCN] (https://arxiv.org/pdf/1809.06018.pdf)
